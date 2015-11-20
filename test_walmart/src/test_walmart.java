@@ -24,7 +24,7 @@ public class test_walmart {
 	@BeforeTest
 	public void setUp() throws Exception
 	{	//Opens the chrome driver
-		String PATH_TO_DRIVER = "C:\\Users\\VETRI\\Downloads\\chromedriver_win32\\chromedriver.exe";
+		String PATH_TO_DRIVER = "chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", PATH_TO_DRIVER);	
 		WebDriver driver = new ChromeDriver();
 		Actions action = new Actions(driver);
