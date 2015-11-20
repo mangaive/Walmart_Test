@@ -1,3 +1,7 @@
+PROJECT FILES:
+test_Walmart.java
+shoppingCart.java
+
 INSTALLATIONS REQUIRED:
 • Java 7 or higher
 • Eclipse
@@ -6,7 +10,9 @@ INSTALLATIONS REQUIRED:
 
 PROJECT SETUP INSTRUCTIONS:
 • Create a new project in Eclipse and add Selenium jar files to it
-• Change the current chromedriver path to the path where ChromeDriver is saved on your system 
+• Change the current chromedriver path to the path where ChromeDriver is saved on your system (path has to updated in both test_Walmart.java and
+shoppingCart.java )(PATH_TO_DRIVER variable)
+
 
 ASSIGNMENT:
 • Automate an end-to-end user e-commerce transaction flow using any open source tool for www.walmart.com with an existing customer on Chrome or Safari browser.
@@ -37,6 +43,7 @@ TEST FLOW:
 • Each item is searched and from result set one item is selected and added to cart  
 • Add item to cart 
 • Validate that item added is present in the cart and if it's the only one item in the cart
+• All items are searched and then driver closes after that
 
 MISSING:
 • If any item requires an option to be choosen (eg.colour of item) user has to choose it manually or else test will fail.
