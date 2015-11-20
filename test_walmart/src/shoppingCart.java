@@ -11,7 +11,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 
 public class shoppingCart {
-	private final String PATH_TO_DRIVER = "H:\\chromedriver.exe";
+	private final String PATH_TO_DRIVER = "chromedriver.exe";
 	private final String LOGIN_BTN_XPATH = "/html/body/div[2]/section/section[4]/div/div/div/div/div/div/div/form/div/button";
 	private final String WALMART_ACCOUNT = "http://www.walmart.com/account";
 	private final String LOGIN_USERNAME = "walmarttest132@gmail.com";
